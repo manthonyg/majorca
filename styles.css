@@ -225,7 +225,6 @@ a:visited {
   cursor: pointer;
   opacity: 0;
   z-index: 2;
-  -webkit-touch-callout: none;
 }
 
 #menu-toggle label {
@@ -270,8 +269,8 @@ a:visited {
   text-align: center;
   align-items: center;
   background-color: var(--teal);
-  grid-row-start: 1fr;
-  grid-column-start: 1fr;
+  grid-row-start: 1;
+  grid-column-start: 1;
   width: 100%;
   gap: 10px;
   border: 2px solid var(--white);
@@ -302,8 +301,8 @@ a:visited {
   flex-wrap: wrap;
   text-align: center;
   align-items: center;
-  grid-row-start: 1fr;
-  grid-column-start: 1fr;
+  grid-row-start: 1;
+  grid-column-start: 1;
   width: 90%;
   gap: 10px;
 }
@@ -314,7 +313,6 @@ a:visited {
 
 #testimonials section p {
   width: 100%;
-  text-decoration: italic;
 }
 
 /** END TESTIMONIALS **/
@@ -348,7 +346,6 @@ a:visited {
 
 #about section p {
   width: 100%;
-  text-decoration: italic;
 }
 
 /** END ABOUT **/
@@ -394,7 +391,6 @@ a:visited {
 
 #contact section p {
   width: 100%;
-  text-decoration: italic;
 }
 /** END CONTACT **/
 
@@ -492,8 +488,8 @@ footer a {
     text-align: center;
     align-items: center;
     background-color: var(--teal);
-    grid-row-start: 1fr;
-    grid-column-start: 1fr;
+    grid-row-start: 1;
+    grid-column-start: 1;
     width: 100%;
     gap: 10px;
     border: 2px solid var(--white);
@@ -521,8 +517,8 @@ footer a {
     flex-wrap: wrap;
     text-align: center;
     align-items: center;
-    grid-row-start: 1fr;
-    grid-column-start: 1fr;
+    grid-row-start: 1;
+    grid-column-start: 1;
     width: 90%;
     gap: 10px;
   }
@@ -533,7 +529,6 @@ footer a {
 
   #testimonials section p {
     width: 100%;
-    text-decoration: italic;
   }
 
   #about div {
@@ -561,7 +556,6 @@ footer a {
 
   #about section p {
     width: 100%;
-    text-decoration: italic;
   }
 }
 
@@ -622,8 +616,8 @@ footer a {
     text-align: center;
     align-items: center;
     background-color: var(--teal);
-    grid-row-start: 1fr;
-    grid-column-start: 1fr;
+    grid-row-start: 1;
+    grid-column-start: 1;
     width: 100%;
     gap: 10px;
     border: 2px solid var(--white);
@@ -651,8 +645,8 @@ footer a {
     flex-wrap: wrap;
     text-align: center;
     align-items: center;
-    grid-row-start: 1fr;
-    grid-column-start: 1fr;
+    grid-row-start: 1;
+    grid-column-start: 1;
     width: 90%;
     gap: 10px;
   }
@@ -663,7 +657,6 @@ footer a {
 
   #testimonials section p {
     width: 100%;
-    text-decoration: italic;
   }
 
   #about div {
@@ -691,7 +684,6 @@ footer a {
 
   #about section p {
     width: 100%;
-    text-decoration: italic;
   }
 
   #contact div {
@@ -733,7 +725,6 @@ footer a {
 
   #contact section p {
     width: 100%;
-    text-decoration: italic;
   }
 }
 
